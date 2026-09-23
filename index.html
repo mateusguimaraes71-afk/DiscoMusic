@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DiscoMusic</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="imagens/favicon.jpeg" type="image/x-icon">
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header class="bg-white pt-3">
+      <div
+        class="container py-3 d-flex justify-content-between align-items-center"
+      >
+        <img src="imagens/logo.jpeg" class="img-fluid" alt="..." />
+
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                >
+                  Features
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#artigo-1">Feature 1</a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="#artigo-2">Feature 2</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#assinatura">Planos</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#noticias">Notícias</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div>
+          <button id="btn-branco" class="btn">Entrar</button>
+          <button class="btn">Cadastrar</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+      <!-- Apresentação -->
+      <section class="container text-center pt-5">
+        <h2 class="título-principal">Aqui você conhece sua música</h2>
+
+        <p class="primeiro-paragrafo">
+          Contamos a historia por trás de músicas, bandas, artistas e sempre
+          trazendo curiosidades, noticias e claro traduzindo aquele hit que você
+          escuta sem entender nada.
+        </p>
+
+        <button class="btn">Junte-se à nós</button>
+        <img
+          src="imagens/cover.jpeg"
+          class="img-fluid pt-5 pb-5"
+          alt="Pessoas conversando"
+        />
+      </section>
+
+      <section class="container text-center pt-5">
+        <h2 class="titulo-apoiadores">Apoiador por</h2>
+        <div>
+          <img src="imagens/marca-1.jpeg" class="img-fluid pt-5" alt="" />
+          <img src="imagens/marca-2.jpeg" class="img-fluid pt-5" alt="" />
+          <img src="imagens/marca-3.jpeg" class="img-fluid pt-5" alt="" />
+          <img src="imagens/marca-4.jpeg" class="img-fluid pt-5" alt="" />
+          <img src="imagens/marca-5.jpeg" class="img-fluid pt-5" alt="" />
+        </div>
+      </section>
+
+      <!-- Artigos -->
+      <section id="artigo-1" class="container-fluid pt-5">
+        <div class="texto-artigo">
+          <h2 class="título-principal">Artigo 1</h2>
+          <article>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              cum itaque, totam amet dolor dicta dolorem, minus incidunt magnam
+              neque, optio illum aperiam? Tempore magni error esse ducimus
+              consequuntur neque?.
+            </p>
+          </article>
+          <button class="btn">Experimente</button>
+          <button class="btn">Saiba mais</button>
+        </div>
+
+        <div>
+          <img class="img-artigo" src="imagens/feature.jpeg" alt="" />
+        </div>
+      </section>
+
+      <section id="artigo-2" class="container-fluid2 pt-5">
+        <div>
+          <img class="img-artigo2" src="imagens/feature-2.jpeg" alt="" />
+        </div>
+
+        <div class="texto-artigo">
+          <h2 class="título-principal">Artigo 2</h2>
+          <article>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              cum itaque, totam amet dolor dicta dolorem, minus incidunt magnam
+              neque, optio illum aperiam? Tempore magni error esse ducimus
+              consequuntur neque?.
+            </p>
+          </article>
+          <button class="btn">Experimente</button>
+          <button class="btn">Saiba mais</button>
+        </div>
+      </section>
+
+      <!-- Notícias -->
+      <section id="noticias" class="carrossel">
+        <h2>Ultimas Notícias</h2>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="img-carrossel"
+                src="imagens/Helloween-Michael-Kiske-Andi-Deris-2026-foto-Gabriel-Ramos-@gabrieluizramos-768x432.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+
+              <div class="overlay"></div>
+
+              <div class="carousel-caption d-none d-md-block">
+                <p class="paragrafo-carrossel">
+                  4 destaques e um problema do show do Helloween em São Paulo
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-carrossel"
+                src="imagens/iron-maiden-Ross-Halfin.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+
+              <div class="overlay"></div>
+
+              <div class="carousel-caption d-none d-md-block">
+                <p class="paragrafo-carrossel">
+                  Brasil ganha primeira loja oficial do Iron Maiden no mundo;
+                  saiba mais
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-carrossel"
+                src="imagens/ed-sheeran-revela-os-proximos-5-albuns-e-diz-que-se-inspirou-em-tarantino-2154805168_ve192316410.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+
+              <div class="overlay"></div>
+
+              <div class="carousel-caption d-none d-md-block">
+                <p class="paragrafo-carrossel">
+                  Em primeiro show após polêmica, Ed Sheeran agradece músicos:
+                  ‘Aceitaram sabendo que seriam odiados’
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Assinatura -->
+      <section id="assinatura" class="container text-center pt-5">
+        <h2>Assinatura</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="btn-group plano-toggle" role="group">
+          <button type="button" class="btn active">Monthly</button>
+
+          <button type="button" class="btn">Yearly</button>
+        </div>
+
+        <div class="cartoes">
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build</p>
+              <p><span>R$ 50</span>/mês</p>
+
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+
+              <button id="btn-upgrade" class="btn">Upgrade</button>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build</p>
+              <p><span>R$ 50</span>/mês</p>
+
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+
+              <button id="btn-upgrade" class="btn">Upgrade</button>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build</p>
+              <p><span>R$ 50</span>/mês</p>
+
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+
+              <button id="btn-upgrade" class="btn">Upgrade</button>
+            </div>
+          </div>
+        </div>
+      </section>
+        <!-- Get Started -->
+      <section id="entrar" class="container text-center pt-5">
+        <div class="row">
+          <div id="coluna-1" class="col">
+            <h2>Get Started</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit earum voluptate dolor similique, magni corrupti debitis recusandae sunt dolorum quam natus minima sequi hic alias maiores fuga officia enim aspernatur?</p>
+
+            <button id="btn-entrar" class="btn">Entrar</button>
+          </div>
+        
+          <div id="coluna-2" class="col">
+            <img src="imagens/get-started.jpeg" alt="">
+          </div>
+      </div>
+      </section>
+        <!-- Blog -->
+      <section id="blog" class="container text-center pt-5">
+        <h2>Leia também</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis facere laudantium vitae cupiditate amet soluta mollitia</p>
+
+        <div class="row">
+          <div id="artigos" class="col">
+            <img src="imagens/artigo-1.jpeg" alt="">
+            <h2>Artigo 1</h2>
+            <h3>Titulo do artigo</h3>
+
+            <div class="data">
+              <p>Dec 22, 2022</p>
+              <p>5 mins read</p>
+            </div>
+          </div>
+           <div id="artigos" class="col">
+            <img src="imagens/artigo-2.jpeg" alt="">
+            <h2>Artigo 1</h2>
+            <h3>Titulo do artigo</h3>
+
+            <div class="data">
+              <p>Dec 22, 2022</p>
+              <p>5 mins read</p>
+            </div>
+          </div>
+           <div id="artigos" class="col">
+            <img src="imagens/artigo-3.jpeg" alt="">
+            <h2>Artigo 1</h2>
+            <h3>Titulo do artigo</h3>
+
+            <div class="data">
+              <p>Dec 22, 2022</p>
+              <p>5 mins read</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn">Veja mais artigos</button>
+      </section>
+        <!-- Guias -->
+      <section class="container text-center pt-5">
+        <div id="guias">
+          <div>
+            <img src="imagens/logo.jpeg" alt="">
+          </div>
+          <div id="guia">
+            <h2>Produtos</h2>
+            <p>Features</p>
+            <p>Pricing</p>
+          </div>
+          <div id="guia">
+            <h2>Resources</h2>
+            <p>Blog</p>
+            <p>User guides</p>
+            <p>Webinars</p>
+          </div>
+          <div id="guia">
+            <h2>Company</h2>
+            <p>About</p>
+            <p>Join us</p>
+          </div>
+          <div id="newsletter">
+            <h2>Inscreva-se na nossa newsletter</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+           
+            <input type="email" id="email" placeholder="Seu melhor email">
+            <label for="email"><button id="btn-inscreva" class="btn btn-primary">Inscrever</button></label>
+        </div>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer id="rodapé" class="container text-center pt-5">
+      <p> &copy; 2026 Sua Empresa. Todos os direitos reservados.</p>
+
+      <div>
+        <a href="#"><img class="redes-socias" src="imagens/communication.png" alt="Facebook" /></a>
+        <a href="#"><img class="redes-socias" src="imagens/twitter.png" alt="Twitter" /></a>
+        <a href="#"><img class="redes-socias" src="imagens/instagram.png" alt="Instagram" /></a>
+        <a href="#"><img class="redes-socias" src="imagens/linkedin.png" alt="LinkedIn" /></a>
+        <a href="#"><img class="redes-socias" src="imagens/youtube.png" alt="YouTube" /></a>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
+</html>
